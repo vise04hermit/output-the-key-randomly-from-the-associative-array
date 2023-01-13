@@ -1,0 +1,7 @@
+const keys = Object.keys(yourObj);
+
+const randomNumber = Math.floor(Math.random() * keys.length);
+const randomKey = keys[randomNumber];
+const randomValue = yourObj[randomKey];
+
+console.log(randomKey, randomValue)
